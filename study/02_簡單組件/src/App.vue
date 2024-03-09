@@ -1,5 +1,8 @@
 <template>
+    <div class="app">
+        <h1>hello</h1>
         <person/>
+    </div>
 </template>
 
 <script>
