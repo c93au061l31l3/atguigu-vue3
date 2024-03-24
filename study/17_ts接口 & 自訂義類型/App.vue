@@ -1,5 +1,5 @@
 <template>
-        <Person/>
+        <Person ref="refTest" /> <!--獲取組件實例對象-->
 </template>
 
 <script lang="ts" setup name="App">
