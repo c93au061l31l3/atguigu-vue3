@@ -1,17 +1,14 @@
 import {createApp} from 'vue'
 import App from './App.vue'
 
+//1.引入pinia
 import { createPinia } from 'pinia'
-import router from './router'
-
-// import emitter from './utils/emitter'
 
 
 const app = createApp(App)
-
+//2.創建pinia
 const pinia = createPinia()
-
+//3.安裝pinia
 app.use(pinia)
-app.use(router)
 
 app.mount('#app')
